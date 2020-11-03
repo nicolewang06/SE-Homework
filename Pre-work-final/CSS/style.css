@@ -1,0 +1,83 @@
+
+	body{background-color: #E8E8E8; text-align: center;}
+	p{font-size: 11pt; font-family: verdana; }
+	li{font-style: italic; font-family: verdana; text-align: left;}
+	a{color: purple ; font-family: verdana;}
+	h2{font-family: verdana; color: #343333;}
+	h3{font-family: verdana; color: #F66161;}
+
+	
+
+	th {font-size: 11pt;
+		font-family: verdana;
+		text-align: left;
+		padding-left: 8px;
+	}
+	td {font-size: 11pt; font-family: verdana; text-align: justify; vertical-align: top;
+		height: 65px; padding: 10px;
+	}
+		tr:nth-child(even) {background-color: #F5F5F5;
+			}
+
+#leftText{text-align: left;}
+
+	#fav1{color: red;}
+	#fav2{color: blue;}
+	#fav3{color: green;}
+
+
+#pinkBG { background-color: #F66161;
+			color: white;
+			height: 22px;
+			font-size: 11pt; font-family: verdana; 
+		}
+
+	#div1{		background-color: #F5F5F5; padding: 10px; width: 80%;
+				margin:auto;
+				width: 60%;
+				padding: 10px;
+				position: sticky;
+				display: inline-block;
+				top: 0;
+	}
+	#div2{		background-color: #F3E9E9;
+				margin:auto;
+				width: 60%;
+				padding: 10px;
+				display: block;
+
+	}
+	#div3{		background-color: #F5F5F5;
+				margin:0 auto;
+				width: 60%;
+				padding: 10px;
+				position: right;
+				}
+	#div4{		background-color: #F3E9E9; padding: 20px;
+				margin:auto;
+				width: 60%;
+				padding: 10px;
+	}
+
+	#div1, #div2, #div3, #div4 {border: double;}
+
+	.center{
+		padding: 1.5%;
+		background-color: #FEFEFE;
+	}
+
+
+	form{
+		font-family: verdana;
+		text-align: left;
+		margin:auto;
+		width: 60%;
+		border: 3px double red;
+		padding: 10px;
+	}
+	#textboxname {width: 270px}
+	#textboxsug {height: 50px; width: 270px; }
+
+
+
+
