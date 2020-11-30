@@ -38,7 +38,8 @@ var shoppingList = [
 
 var waitList = [ "Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
 for(let i = 0; i < waitList.length; i++) {
-    console.log("4. Now Serving " + waitList[i])
+    nowServing = waitList[i];
+    console.log("4. Now Serving " + nowServing);
 } 
 
 
