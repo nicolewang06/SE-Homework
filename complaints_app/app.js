@@ -30,7 +30,7 @@ $(() => {
           $('#complaint').append($("<tr>")
             .append($("<td>").text(desc))
             //.append($("<td>").append(reso)))
-            .append($("<td align='right'>").append("<button id='poBtn' onclick='toggle()'>WHAT DID THE POLICE DO?</button>")))
+            .append($("<td align='right'>").append("<input type='button' id='poBtn' onClick='alert('you clicked')' value='WHAT DID THE POLICE DO?'>")))
           //$('#resolution').append("<td><button onclick='toggle'>WHAT DID THE POLICE DO?</button></td></tr>");   
         };
         console.log(data);
