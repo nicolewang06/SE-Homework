@@ -1,3 +1,7 @@
+function toggle() {
+  $('#reso').toggle(1000);
+}
+
 $(() => {
     let thisUrl = 'https://data.cityofnewyork.us/resource/erm2-nwe9.json?agency=NYPD&borough='
     let borough = null;
@@ -21,19 +25,18 @@ $(() => {
           // $('#complaint').append(data[i].descriptor + "<br><strong>Resolution: </strong>" + data[i].resolution_description + 
           // "<br><button id='toggle' onclick='toggle'>Toggle Police Response</button><hr>")
 
-          function toggle () {
-            alert("helo");
-          }
-
           let desc = data[i].descriptor;
           let reso = data[i].resolution_description;
+          
           $('#complaint').append($("<tr>")
-            .append($("<td>").text(desc))
-            //.append($("<td>").append(reso)))
-            .append($("<td align='right'>").append("<input type='button' id='poBtn' onClick='alert('you clicked')' value='WHAT DID THE POLICE DO?'>")))
+            .append($("<td>").append(desc))
+            
+            .append($("<td align='right'>").append("<input type='button' id='poBtn' onclick='toggle()' value='WHAT DID THE POLICE DO?'>"))
+            .append($("<td id='reso'>").append(reso)))
           //$('#resolution').append("<td><button onclick='toggle'>WHAT DID THE POLICE DO?</button></td></tr>");   
         };
         console.log(data);
+        
       });
     })
 })

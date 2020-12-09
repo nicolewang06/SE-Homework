@@ -20,11 +20,14 @@ body {
 }
 
 .button:hover, #poBtn:hover {
-    background-color: #ffa909ef;
+    background-color: #ffa909;
 }
 
 #complaintTable {
-    width: 550px;
     margin: 0 auto;
     text-align: left;
+}
+
+#reso {
+    display: none;
 }
