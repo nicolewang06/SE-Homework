@@ -1,0 +1,32 @@
+Identify all the HTTP methods for this API
+- GET: shows data in database
+- POST: creates new record to be added to database
+- PUT: updates data in database
+- DELETE: deletes data from database
+
+Identify the differences in their URLs
+- using GET, the last word after "/" is the name of the database
+- using POST, last word is create
+- using PUT, an id is needed after the last word update
+- using DELETE, an id is needed after the last word delete
+
+What are different types of Web Services?
+- Simple Object Access Protocol in XML format that targets actions and  Representational State Transfer that gets the resource based on which HTTP method is used. Can also accept more than just XML format like JSON
+
+What are disadvantages of SOAP Web Services?
+- SOAP only uses XML format making it difficult to read and is slow
+
+What are disadvantages of REST web services?
+- REST sessions cannot be maintained and the HTTP method has to be put correctly
+
+What are different HTTP Methods supported in Restful Web Services?
+- including the methods listed above, PATCH, which allows you to update a single value without modifying its entirety.
+
+What is JAX-RS API?
+- Java API for RESTful Web Services, an API with JAVA based programming language. It provides support for RESTful Web Services which are represented as resources that can be identified by a navigation link
+
+Create a URI for the different Http Verbs for a School.
+- GET: http://myapi.schools.com/api/queens/schools
+- POST: http://myapi.schools.com/api/queens/create
+- PUT: http://myapi.schools.com/api/queens/update/20
+- DELETE: http://myapi.schools.com/api/queens/delete/32

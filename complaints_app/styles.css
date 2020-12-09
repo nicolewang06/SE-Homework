@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#userInput {
+    height: 20px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#poBtn {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.button:hover, #poBtn:hover {
+    background-color: #ffa909ef;
+}
+
+#complaintTable {
+    width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
