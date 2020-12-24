@@ -53,7 +53,7 @@ class App extends React.Component {
                     <label>Brand: </label>
                     <input type='text' value={this.state.brand} onChange={this.handleChange} placeholder='brand name' id='brand' /><br></br>
                     <label>Units: </label>
-                    <input type='textarea' value={this.state.units} onChange={this.handleChange} placeholder='units'/><br></br>
+                    <input type='text' value={this.state.units} onChange={this.handleChange} placeholder='units'/><br></br>
                     <label>Quantity: </label>
                     <input type='number' value={this.state.quantity} onChange={this.handleChange} placeholder='quantity' id='quantity' /><br></br>
                     <input type="submit" value="Add to Grocery List" />
