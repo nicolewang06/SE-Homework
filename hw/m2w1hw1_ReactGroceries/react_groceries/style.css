@@ -23,6 +23,10 @@ body {
     padding: 5px;
 }
 
+div#groceryList ul:hover {
+    cursor: crosshair;
+}
+
 #shoppingCart {
     padding: 5px;
 }
